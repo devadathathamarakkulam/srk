@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(193, 98, 25);
+    text-align: center;
+    margin: 0%;
+}
+.menu{
+    position: fixed;
+    background-color: cadetblue;
+    width: 100%;
+    height: 40px;
+    margin-top: 0%;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+img{
+    margin-top: 100px;
+
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+    transition: font-size 1s;
+}
+a:hover{
+    font-size: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.selection{
+padding: 50px;
+}
+#home{
+    background-color: rgb(78, 76, 75);
+    background: linear-gradient(90deg,rgb(78,76,75)0% ,);
+}
+
